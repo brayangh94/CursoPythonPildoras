@@ -15,15 +15,19 @@
 
 # LAS FUNCIONES SE DEFINEN DE LAS 2 MANERAS SIGUIENTES USANDO LA PALABRA RESORVDA def
 
-def nombre_funcion():
+#def nombre_funcion():
 
-	instrucciones de la funcion
-	return()opcional 
+	#instrucciones de la funcion
+	#return()opcional 
 	#la identacion es fundamental en python
 
-def nombre_funcion(parametros):
+#def nombre_funcion(parametros):
 
-	instrucciones de la funcion
-	return()opcional
+	#instrucciones de la funcion
+	#return()opcional
 
 # dentro de las funciomes tenemos las funciones "predefinidas" que son las que se nos proporcionan junto con el lenguaje de programacion como por ejemplo "print()" y las funciones "propias" que son las que nosotros creamos para un uso en especifico
+
+print("estamos aprendiendo python")
+print("estamos aprendiendo instrucciones basicas")
+print("poco a poco iremos avanzando")

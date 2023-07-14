@@ -28,6 +28,12 @@
 
 # dentro de las funciomes tenemos las funciones "predefinidas" que son las que se nos proporcionan junto con el lenguaje de programacion como por ejemplo "print()" y las funciones "propias" que son las que nosotros creamos para un uso en especifico
 
-print("estamos aprendiendo python")
-print("estamos aprendiendo instrucciones basicas")
-print("poco a poco iremos avanzando")
+# otras ventajas de las funciones en python es que pueden respopnder a eventos, se pueden llamar desde otros programas o archivos, pero las principal utilidad reutilizacion de codigo
+
+def mensaje():
+	
+	print("estamos aprendiendo python")
+	print("estamos aprendiendo instrucciones basicas")
+	print("poco a poco iremos avanzando")
+
+mensaje()

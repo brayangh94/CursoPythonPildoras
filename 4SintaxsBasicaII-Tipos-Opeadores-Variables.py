@@ -1,8 +1,8 @@
 #TIPOS DE DATOS, OPERADORES Y VARIBLES:
 
-# Tos de datso: Numericos los nuemricos en ellos de  dividen en (enteros, decimales(de coma flotante) y complejos), Texto el texto se declara en comillassimples ydobles y hasta comilla triple qu es caracteristica de python y booleanos (true o false).
+# Tipos de datso: Numericos los nuemricos en ellos de  dividen en (enteros, decimales(de coma flotante) y complejos), Texto el texto se declara en comillassimples ydobles y hasta comilla triple qu es caracteristica de python y booleanos (true o false).
 
-#operadores: estan los aritmeticos. los de comparacion, los logicos, los deasignacion y los operadores especiales [IS, IS NOT, IN, IN NOT] (usados para comprobar si un vaen ceto s eencuentra ero de unasecucde valores)
+#operadores: estan los aritmeticos. los de comparacion, los logicos, los deasignacion y los operadores especiales [IS, IS NOT, IN, IN NOT] (usados para comprobar si un valor se encuentra de primero de una secuencia de valores)
 
 #el tipo que va a ser la variable no lo establece el contenedor sino el contenido, por ejemplo v=5 , la variable es numerica porque el contenido es un numero
 

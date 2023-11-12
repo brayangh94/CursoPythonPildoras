@@ -2,7 +2,7 @@
 
 #una instruccion en python es una linea de codigo, no se usan punto y coma para terminar una linea
 
-# se puede usar el punto y coma para poner mas de una instrucionde una linea, estpractno  recomendable
+# se puede usar el punto y coma para poner mas de una instrucion de una linea, esta practica no es recomendable
 
 # la barra invertida \ sirve para segir una instruccion en una siguente lines, no confundir con que hara un salto de linea, esto es util es una instruccon en la que se tengan varios parametros
 

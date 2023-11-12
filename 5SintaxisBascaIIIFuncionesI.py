@@ -6,7 +6,7 @@
 
 # las funciones en python puenden o no tener parametros/argumentos 
 
-# las funciones se sulen llamar metodos , pero solo se els llama asi si estan dentro de una clase 
+# las funciones se suelen llamar metodos , pero solo se els llama asi si estan dentro de una clase 
 
 # UTILIDAD DE LAS FUNCIONES 
 # reutilizar cdodigo si es necesario (o cuando sea necesario), tiene mas utilidades pero es la principal

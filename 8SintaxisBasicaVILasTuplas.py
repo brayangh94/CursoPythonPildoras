@@ -2,13 +2,13 @@
 
 #las tuplas son listas inmutables, es decir n ose pueden modificar luiego de su creacion.
 
-#no permiten añadir, remover, elñiominar elementos(no se poidra usar append, extend,remove)
+#no permiten añadir, remover, eliminar elementos(no se podria usar append, extend,remove)
 
 # si permiten extraer porciones, pero el resultado de esa extraccion es una nueva tupla.
 
-#las tuplas no permiten realizar busquedas (no se podra usar index)
+#las tuplas no permiten realizar busquedas (no se podra usar index) / AHORA SI LO PERMITE
 
-# pero si es permitido comprobar si un elementos esta en la tupla, osea se busca el valor que se requira, mas no se puede buscar por los indices
+# pero si es permitido comprobar si un elementos esta en la tupla, osea se busca el valor que se requiera, mas no se puede buscar por los indices
 
 #QUE UTILIDAD TIENEN LAS TUPLAS POR ENSIMA DE LAS LISTAS:
 
@@ -59,7 +59,7 @@ print(miTupla2.count(3000))
 
 print(len(miTupla))#OJO esto no da el ultimo indice da el numero de elemntos que hay, para tenr el indice se le restaria 1 al valor que devuelva
 
-#tambien se pueden crar tuplas unitarias, que son tuplas con un solo elemento, para que sean unitarias, luego de declarar su unico valor se debe poner poner una coma ,
+#tambien se pueden crar tuplas unitarias, que son tuplas con un solo elemento, para que sean unitarias, luego de declarar su unico valor se debe poner una coma ,
 
 miTuplaUnitaria=("hola",)
 

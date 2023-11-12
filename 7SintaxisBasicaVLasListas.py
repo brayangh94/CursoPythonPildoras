@@ -65,7 +65,7 @@ miLista.extend(["juano", 5, False, 3.6, "brayan"])#True o false si se van a escr
 print(miLista[:])
 
 
-#PARA QUE SE NOSA DEVUELVA EL INDICE DE UN ELEMENTO DENTRO DE UNA LISTA
+#PARA QUE SE NOS DEVUELVA EL INDICE DE UN ELEMENTO DENTRO DE UNA LISTA
 
  #seria con la funcion .index(elementos que se encuenta en ese indice)
 

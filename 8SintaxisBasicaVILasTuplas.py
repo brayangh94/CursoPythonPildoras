@@ -1,6 +1,6 @@
 #LAS TUPLAS
 
-#las tuplas son listas inmutables, es decir n ose pueden modificar luiego de su creacion.
+#las tuplas son listas inmutables, es decir no se pueden modificar luego de su creacion.
 
 #no permiten añadir, remover, eliminar elementos(no se podria usar append, extend,remove)
 
@@ -26,7 +26,7 @@
 
 #a la vez que las listas se declaran con corchetes[], las tuplas se declaran con parentesis () ó no tener estar encerrados en nada, solo para el caso de las tuplas 
 
-#nombreTupla=(elem1,elem2,...,etc) , el indice de las posiciónes tambien empiezan en cero 0 como las listas, las listas s e declaran en parentesis , pero a la hora de leer sus valores con el indice si se hace con corchetes []
+#nombreTupla=(elem1,elem2,...,etc) , el indice de las posiciónes tambien empiezan en cero 0 como las listas, las listas se declaran en parentesis , pero a la hora de leer sus valores con el indice si se hace con corchetes []
 
 miTupla=("Brayan",12,11,1994)
 
@@ -51,11 +51,11 @@ print(miTupla2)
 
 print("ivan" in miTupla2)
 
-#para saber la cantidad de leemntos con el valor que se esta buscando hay en una tupla , se usa el metodo count()
+#para saber la cantidad de elementos que hay con el valor que se esta buscando en una tupla , se usa el metodo count()
 
 print(miTupla2.count(3000))
 
-#para sabver que tan grande e suna tupla se usa el metodo len()
+#para saber que tan grande es una tupla se usa el metodo len()
 
 print(len(miTupla))#OJO esto no da el ultimo indice da el numero de elemntos que hay, para tenr el indice se le restaria 1 al valor que devuelva
 
@@ -63,17 +63,17 @@ print(len(miTupla))#OJO esto no da el ultimo indice da el numero de elemntos que
 
 miTuplaUnitaria=("hola",)
 
-#cuando se declaran tuplas tambien se puiede precindir de los parentesis
+#cuando se declaran tuplas tambien se puede precindir de los parentesis
 
 miTuplaSinParentesis="holanda", 56, 96, "chaolines"#declararla de esta manera se conoce como empaquetado de tupla
 
 print(miTuplaSinParentesis)
 
-#pero tambien tenemos el desempaquetado de tupla, esto permite asignar todos los valores que pertenecen a una tupla adiferentes variables de manera sencilla
+#pero tambien tenemos el desempaquetado de tupla, esto permite asignar todos los valores que pertenecen a una tupla a diferentes variables de manera sencilla
 
 mituplaParaDesempaquetar=("juan", 12, 9 ,1995)
 
-nombre, dia, mes, ano = mituplaParaDesempaquetar#y asi de manera simple se desempaqueto la tupla en difernetes variables
+nombre, dia, mes, ano = mituplaParaDesempaquetar #y asi de manera simple se desempaqueto la tupla en difernetes variables
 
 print(nombre)
 print(dia)

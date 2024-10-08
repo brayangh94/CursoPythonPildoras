@@ -6,7 +6,7 @@
 
 #son el equivalente a los arreglos, vectores en otros lenguajes, o por lo menos son muy parecidos y la utilidada si iviene a ser la misma
 
-#por lo tanto las listas en python on esructuras que nos permiten almacenar varios valores en unsa sola variable
+#por lo tanto las listas en python son esructuras que nos permiten almacenar varios valores en unsa sola variable
 
 #las listas en python no permitan guardar diferentes tipos de valores, esto no es asi en otro lenguajes de programacion  
 
@@ -28,7 +28,7 @@ miLista=["rosa", "elisa", "brayan", "ivan"]
 print(miLista[:])
 #para acceder a todos los elementos se colocan dos puntos dentro de los corchetes
 
-#si se quiere acceder al elemento que esta en la pocicion 2 se hace comlocando su indice entre los corchetes
+#si se quiere acceder al elemento que esta en la pocicion 2 se hace cocando su indice entre los corchetes
 
 print(miLista[2])
 #si se pusieran indices negativos, python interpretaria eso como que se esta contan los indices del final hasta el inicio pero con la diferencia que al pasarle indice negativo la cuanta no empesaria en 0 sino en -1, por lo tanto -1=ivan, -2=brayan, -3=elisa, -4=rosa
@@ -50,7 +50,7 @@ miLista.append("gloria")
 
 print(miLista[:])
 
-# y si se quisiera agragar un elementos en cualquir posicion de la lista se usria, .insert(indice de la posicion en la que quiere agrar,elemento que se quiere agregar)
+# y si se quisiera agragar un elementos en cualquir posicion de la lista se usria, .insert(indice de la posicion en la que quiere agrar,"elemento que se quiere agregar")
 
 miLista.insert(2, "juana")
 
@@ -72,7 +72,7 @@ print(miLista[:])
 print(miLista.index("brayan"))
 #si hubiera 2 elemtos en la lista con el mismo nombre o valor, .index devolveria un valor, el numero del indice del primero de ellos que encuentre primero
 
-#COMPROBAR SI UN ELEMENTO SE ENCUENTRA O NO SE ENCUENTRA EN UNA LISTA: con el elemento "in" , devolvera un true o false si el elemento s eencuentra en la lista
+#COMPROBAR SI UN ELEMENTO SE ENCUENTRA O NO SE ENCUENTRA EN UNA LISTA: con el elemento "in" , devolvera un true o false si el elemento se  encuentra en la lista
 
 print("rosa" in miLista)
 
@@ -82,7 +82,7 @@ miLista.remove(5)
 
 print(miLista[:])
 
-#tambien contamos con .pop cuya funcion es eliminar el ultimo elemento de una lista
+#tambien contamos con .pop() cuya funcion es eliminar el ultimo elemento de una lista
 
 miLista.pop()
 print(miLista[:])

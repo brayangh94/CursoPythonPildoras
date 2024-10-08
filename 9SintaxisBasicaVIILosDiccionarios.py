@@ -1,8 +1,8 @@
 #QUE SON LOS DICCIONARIOS : es lo mismo que un array asociativo en php
 
-#son estreucturas de datos parecidos a las lista y a las tuplas , permite almacenar todo tipo de datois (entero, cadena, decimal) , incluso listas, tuplas y otros diccionarios.
+#son estreucturas de datos parecidos a las lista y a las tuplas , permite almacenar todo tipo de datos (entero, cadena, decimal) , incluso listas, tuplas y otros diccionarios.
 
-#la principal caracteristica de los dicxcionarios es que a la hora de almacenar los datos en el diccionario se hace con una asociacion de tipo clave:valor, es to lo que quiere decir, es que para cadas valor que se almacene en un diccionario se el asigna una clave uncia, NO IMPORTA EL ORDEN CON EL QUE SE ALMACENAN LOS DATOS EN UN DICCIONARIO
+#la principal caracteristica de los dicxcionarios es que a la hora de almacenar los datos en el diccionario se hace con una asociacion de tipo clave:valor, esto lo que quiere decir, es que para cadas valor que se almacene en un diccionario se le asigna una clave unica, NO IMPORTA EL ORDEN CON EL QUE SE ALMACENAN LOS DATOS EN UN DICCIONARIO
 
 #LOS DICCIONARIOS SE DECLARAN DE LA SIGUIENTE MANERA
 
@@ -16,7 +16,7 @@ print(midiccionario["francia"])
 
 print(midiccionario)
 
-#COMO AGREGAR MAS ELEMENTOS A UN DICCIONARIO YA CONTRUIDO
+#COMO AGREGAR MAS ELEMENTOS A UN DICCIONARIO YA CONsTRUIDO
 
 midiccionario["italia"]="lisboa"
 print(midiccionario)
@@ -27,7 +27,7 @@ midiccionario["italia"] = "roma" #cuando se asignana varios valores a una misma 
 
 print(midiccionario)
 
-#para eleminar u nelemento del diccionario se usa la funcion del
+#para eleminar un elemento del diccionario se usa la funcion del
 
 del midiccionario["reino unido"]
 
@@ -41,9 +41,9 @@ print(midiccionario2)
 
 #otra funcionalidad que se puede hacer es usar las tupla para asignar las claves a cada uno de los valores
 
-mitupla=["alemania", "francia","reino unido", "españa"]
+mitupla=["alemania", "francia", "reino unido", "españa"]
 
-#ahora para que el diccionario tome la tuple y les asigne las claves a cada uno de los valores
+#ahora para que el diccionario tome la tupla y les asigne las claves a cada uno de los valores
 
 midiccionario3= {mitupla[0]:"berlin",mitupla[1]:"paris",mitupla[2]:"londres",mitupla[3]:"madrid"}
 

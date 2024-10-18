@@ -75,4 +75,20 @@ def divide():
     finally:# cuando quieres que algo se ejecute si o si, se suele usar la clausula finally.
         #esta clausuala es muy usada para cuando necesita que pase lo que pase se ejecute un fracmento de  codigo, como por ejemplo cuando estas haciend conusltas a bases de datos se cirre la conexion con la base de datos par aque no quede abierta
         print("Calculo finalizado")
+
+    
+    
+    #Tambien se puede usar el try: solo con el finally solo que el error no sera atrapado y se mostrara el error espeifico en pantalla, lo que esta en el finally se ejecutara asi falle, pero no podiras indicar que hubo un error como , ve rel siguiente ejemplo:
+        
+    """
+    try:
+        op1=float(input("Ingrese el primer numero: "))
+        op2=float(input("Ingrese el segundo numero: "))
+
+        print("El resultado de la division es:", op1/op2) #esta es la forma de imprimir el calculo con variables
+
+    finally:
+        print("Calculo finalizado")
+    """
+
 divide()

@@ -8,6 +8,6 @@
 
 #en python absolutamente todo es un objeto , osea es un lenguaje de programacion 100% orientado a objetos, si declaramos una variable V=5 esa varibale V es un objeto. Esto lo veremos con una funcion predefinida deniminada type() que devuelve el tipo de variable que se le introdusca 
 
-#en las cadenas de caracteres si se hacen con comillas triples """ es porque en su contenido habra saltos de linea
+#en las cadenas de caracteres, si se hacen con comillas triples """ es porque en su contenido habra saltos de linea
 
 # los operadores de comparacion se usan con el condiional if()
